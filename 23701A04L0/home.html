@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Website</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .login-box{
+                width: 300px;
+                margin: 30px auto;
+                padding: 20px;
+                border: 20px solid gray;
+                text-align: center;
+            }
+            .login-box input{
+                width: 90%;
+                padding: 8px;
+                margin: 8px 0;
+            }
+            .login-box button{
+                padding: 8px 15px;
+                background-color: lightblue;
+                border: none;
+                cursor: pointer;
+            }
+            .login-box button:hover{
+                background-color: orange;
+            }
+             .header{
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+    }
+    .nav{
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+    }
+    .nav a{
+        color: white;
+        text-decoration: none;
+        margin: 15px;
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    .nav a:hover{
+        background-color: orange;
+        color: black;
+        border-radius: 5px;
+    }
+    .content{
+        padding: 30px;
+        margin: 20px;
+        border: 2px solid gray;
+    }
+    .footer{
+        background-color: lightgray;
+        text-align: center;
+        padding: 15px;
+    }
+
+        </style>
+    </head>
+    <body>
+        <!--header-->
+        <div class="header">
+            <h1>Annamacharya University</h1>
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="content">
+            <h2>Welcome TO my Website</h2>
+            <p>This Is A Simple Layout Created Using HTML And CSS.</p>
+            <div class="login-box">
+                <h3>Student Login </h3>
+                <form>
+                    <label>Registration Number</label><br>
+                    <input type="text" placeholder="Enter Registration Number"><br>
+                    <label>Password</label><br>
+                    <input type="password" placeholder="Enter Password"><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <!--footer-->
+            <div class="footer">
+                <p>&copy;2026 My Website</p>
+            </div>
+        </div>
+    </body>
+</html>
